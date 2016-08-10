@@ -1,23 +1,4 @@
 Rails.application.routes.draw do
-  get 'reviews/index'
-
-  get 'reviews/new'
-
-  get 'reviews/create'
-
-  get 'restaurants/index'
-
-  get 'restaurants/show'
-
-  get 'restaurants/new'
-
-  get 'restaurants/create'
-
-  get 'restaurants/edit'
-
-  get 'restaurants/update'
-
-  get 'restaurants/destroy'
 
   resources :restaurants do
     resources :reviews, only: [:new, :create]

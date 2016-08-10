@@ -9,8 +9,8 @@
 restaurants_attributes = [
   {
   name: "L'assiette",
-  address: "Rue des Boucheries"
-  category: "french"
+  address: "Rue des Boucheries",
+  category: "french",
   phone_number: "06 66 60 60 60"
   },
   {name: "Ginko",
